@@ -1,0 +1,139 @@
+@media screen and (min-width: 850px) {
+    .offer {
+        padding: 0 0 350px;
+        background: 
+        url(../img/man.png) 100% 150% no-repeat, 
+        url(../img/man-bg.png) 75% 100% no-repeat,
+        url(../img/gradient-2.png) 100% 50% no-repeat,
+        url(../img/gradient-3.png) 83% 200% no-repeat,
+        url(../img/gradient-1.png) 0% 0% no-repeat;
+    }
+
+    .footer-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sitemap__title {
+        margin: 0;
+    }
+    
+    .sitemap__list {
+        margin: 28px 0 0 0;
+        display: block;
+    }
+
+    .copyright {
+        padding-top: 100px;
+    }
+
+    .discover__card-image {
+        width: 345px;
+        height: 395px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        display: flex;
+    }
+
+    .btn-box {
+        display: flex;
+        gap: 48px;
+        align-items: center;
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+
+    .nav__list {
+        flex-direction: row;
+    }
+
+    .title {
+        font-size: 58px;
+        line-height: 70px;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .discover {
+        padding: 168px 0;
+    }
+
+    .discover__see-more {
+        margin: 0;
+    }
+
+    .discover__cards {
+        flex-wrap: nowrap;
+    }
+
+    .discover__card-image {
+        width: 285px;
+    }
+
+    .learn {
+        padding: 168px 0 158px 0;
+    }
+
+    .learn-container {
+        display: flex;
+        gap: 100px;
+    }
+
+    .learn__counters {
+        flex-wrap: nowrap;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .offer {
+        padding: 0 0 230px;
+        background: 
+        url(../img/man.png) 100% 150% no-repeat, 
+        url(../img/man-bg.png) 88% 100% no-repeat,
+        url(../img/gradient-2.png) 100% 50% no-repeat,
+        url(../img/gradient-3.png) 83% 200% no-repeat,
+        url(../img/gradient-1.png) 0% 0% no-repeat;
+    }
+
+    .offer__holder {
+        width: 45%;
+    }
+
+    .offer__list {
+        display: block;
+    }
+
+    .offer__button {
+        margin: 0 0 110px;
+    }
+
+    .learn-container {
+        gap: 191px;
+    }
+
+    .discover__card-image {
+        width: 345px;
+    }
+
+    .find-program {
+        padding: 168px 0;
+    }
+
+    .find-program-container {
+        display: flex;
+        gap: 191px;
+    }
+
+    .find-program__form input {
+        width: 680px;
+    }
+}
